@@ -1,16 +1,71 @@
-# React + Vite
+# 🧮 crud-table · Laboratorio de Interacción
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> “Cada dato es una forma de orden en movimiento.”  
+> — Cristian / Zentrix
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌙 Descripción
 
-## React Compiler
+**crud-table** es un módulo experimental dentro del ecosistema **Cristian / Zentrix**, desarrollado en el contexto del **Laboratorio Visual**.  
+Su propósito es explorar la relación entre **estructura y fluidez**, aplicando principios de diseño rítmico y precisión funcional sobre una tabla dinámica.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+En este módulo, **crear**, **editar** y **eliminar** datos deja de ser un proceso mecánico  
+para transformarse en un **gesto visual coherente**, donde cada acción tiene peso, ritmo y propósito.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Stack
+
+| Capa | Herramienta |
+|------|--------------|
+| Framework | React + Zustand |
+| Estilos | TailwindCSS + Variables temáticas |
+| Animaciones | Framer Motion |
+| Almacenamiento | LocalStorage (persistencia ligera) |
+| Alertas | SweetAlert2 |
+| Íconos | Lucide Icons |
+
+---
+
+## 🧩 Filosofía
+
+> “La interacción no se diseña: se revela cuando la forma escucha al usuario.”
+
+**crud-table** busca refinar la experiencia del control visual y funcional,  
+integrando microinteracciones que respiran dentro de un sistema coherente.  
+Cada transición, cada estado y cada validación contribuyen a una sensación de orden silencioso.  
+
+No es un formulario.  
+Es un **micro-sistema de equilibrio entre acción y contemplación.**
+
+---
+
+## 🧠 Funcionalidad
+
+- 📋 **Lectura dinámica:** muestra registros persistentes en una tabla animada.  
+- ✏️ **Edición fluida:** transiciones suaves con validaciones visuales.  
+- ➕ **Creación inmediata:** formularios emergentes con validación progresiva.  
+- ❌ **Eliminación reversible:** confirmaciones limpias y mensajes contextuales.  
+- 💾 **Persistencia local:** los datos permanecen almacenados en el navegador.  
+
+---
+
+## 🧭 Propósito
+
+Este módulo sirve como base experimental para futuros entornos del **Laboratorio Visual**,  
+donde la interacción y la estética se funden en sistemas coherentes, adaptables y humanos.
+
+---
+
+## 🌌 Autor
+
+**Cristian Borré**  
+Diseñador y desarrollador de experiencias digitales.  
+
+📩 [crstnborre@gmail.com](mailto:crstnborre@gmail.com)  
+🌐 [cristian-dev.vercel.app](https://cristian-dev.vercel.app)  
+
+---
+
+© 2025 **Cristian** — *El orden también habita en lo simple.*
