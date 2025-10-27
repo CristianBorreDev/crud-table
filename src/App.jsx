@@ -71,32 +71,35 @@ function App() {
 
   return (
     <>
-      <div className="min-h-screen bg-base flex items-center justify-center p-6">
-        <div className="w-full max-w-4xl">
-          <section className="text-center mb-8 max-w-3xl mx-auto relative">
-            <h1 className="text-xl sm:text-2xl font-semibold text-gray-100 mb-3 leading-snug">
-              La estructura también puede tener alma.
-            </h1>
-            <p className="text-sm sm:text-base text-gray-500">
-              Sistema funcional · Exploración de datos y acciones locales
-            </p>
-          </section>
+      <div className="min-h-screen bg-base flex flex-col items-center justify-start px-4 py-8 sm:py-10">
+        {/* 🩶 Header */}
+        <section className="w-full max-w-2xl text-center mb-8">
+          <h1 className="text-lg sm:text-2xl font-semibold text-gray-100 mb-2 leading-snug">
+            La estructura también puede tener alma.
+          </h1>
+          <p className="text-sm sm:text-base text-gray-500">
+            Sistema funcional · Exploración de datos y acciones locales
+          </p>
+        </section>
 
+        {/* 🧩 Tabla principal */}
+        <div className="w-full max-w-4xl">
           <Table
             data={items}
             onAdd={handleAdd}
             onEdit={handleEdit}
             onDelete={handleDelete}
           />
-
-          <ModalForm
-            isOpen={isOpen}
-            onClose={() => setIsOpen(false)}
-            onSubmit={handleSubmit}
-            formData={formData}
-            setFormData={setFormData}
-          />
         </div>
+
+        {/* 🪶 Modal */}
+        <ModalForm
+          isOpen={isOpen}
+          onClose={() => setIsOpen(false)}
+          onSubmit={handleSubmit}
+          formData={formData}
+          setFormData={setFormData}
+        />
       </div>
     </>
   );
